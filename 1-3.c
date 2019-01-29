@@ -8,7 +8,6 @@ int main() {
   lower = 0;
   upper = 300;
   step = 20;
-  // Some more changes in another hunk
 
   fahr=lower;
   printf("Fahr---Cel\n");
@@ -18,6 +17,3 @@ int main() {
     fahr = fahr + step;
   }
 }
-
-
-//These are some changes
