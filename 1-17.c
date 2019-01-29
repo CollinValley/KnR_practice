@@ -9,6 +9,7 @@ void copy(char to[], char from[]);
 int main() {
     int len;
     int max;
+    //here
     char line[MAXLINE];
 
     while ((len = get_line(line, MAXLINE)) > 0) {
@@ -28,6 +29,7 @@ int get_line(char s[], int lim) {
     if (c == '\n') {
         s[i] = c;
         ++i;
+        //Change here
     }
     s[i] = '\0';
     return i;
